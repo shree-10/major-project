@@ -1,0 +1,42 @@
+.home-container {
+  background-image: url('pexels-kseniachernaya-3965545.jpg');
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #0e000e;
+  height: 100vh;
+  position: relative;
+}
+
+.blur-overlay {
+  background-image: url('pexels-kseniachernaya-3965545.jpg');
+  background-size: cover;
+  filter: blur(8px);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.home-content {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.home-heading {
+  font-size: large;
+  font-weight: bolder;
+  font-size: 3.5rem;
+  margin-bottom: 538px;margin-top: 40px;
+}
+
+
+/* .home-subheading {
+  font-size: 1.1rem;
+  margin-bottom: 490px;
+  margin-top: 70px;
+} */
